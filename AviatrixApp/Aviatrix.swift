@@ -17,6 +17,8 @@ class Aviatrix {
         author = authorName
     }
     
+    // the purpose of this function is when we start the plane, we know it's running and when we are not on the plane, we know it's not running and it's not wasting any fuel
+    
     func start() -> Bool {
         running = true
         return running
